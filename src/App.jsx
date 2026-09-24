@@ -1,14 +1,13 @@
-import HomeNavbar from "./components/Navbar/HomeNavbar/HomeNavbar"
-
+import HomeNavbar from "./components/Navbar/HomeNavbar/HomeNavbar";
+import Home from "./Layout/Home/Home";
 
 function App() {
-
-
   return (
     <>
-      <HomeNavbar/>
+      <HomeNavbar />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
