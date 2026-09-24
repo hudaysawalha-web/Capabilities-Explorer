@@ -1,14 +1,15 @@
-import ParentSidebar from "./components/Sidebar/ParentSidebar/ParentSidebar"
 
+import HomeNavbar from "./components/Navbar/HomeNavbar/HomeNavbar";
+import Home from "./Layout/Home/Home";
 
 function App() {
-
-
   return (
     <>
-    <ParentSidebar/>
+      <HomeNavbar />
+      <Home />
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
