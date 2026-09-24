@@ -1,4 +1,3 @@
-import React from 'react'
 import './HomwNavbar.css'
 
 export default function HomeNavbar() {
@@ -9,7 +8,7 @@ export default function HomeNavbar() {
       <i className="fa-solid fa-brain"></i>
     </div>
 
-    <span>مستكشف القدرات</span>
+    <span> Early Step</span>
   </div>
   <div className="navbar-links">
     <a href="./pages/auth/login.html" className="login-link">
