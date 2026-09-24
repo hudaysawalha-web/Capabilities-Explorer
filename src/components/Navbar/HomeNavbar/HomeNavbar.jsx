@@ -16,8 +16,9 @@ export default function HomeNavbar() {
         </a>
 
         <a href="./pages/auth/registers.html" className="startnow-button">
+          <i className="fa-solid fa-wand-magic-sparkles"></i> 
           <p>ابدأ الآن</p>
-          <i className="fa-solid fa-wand-magic-sparkles"></i>
+         
         </a>
       </div>
     </div>

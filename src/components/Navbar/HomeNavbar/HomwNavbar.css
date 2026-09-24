@@ -13,8 +13,6 @@
   align-items: center;
   gap: 12px;
   color: #000;
-  font-size: 27px;
-  font-weight: 700;
 }
 
 .brain-icon {
@@ -26,21 +24,17 @@
   background-color: #0d68e8;
   border-radius: 50%;
   color: #fff;
-  font-size: 25px;
+
 }
 
 .navbar-links {
   display: flex;
   align-items: center;
   gap: 35px;
-  direction: rtl;
 }
 
 .login-link {
   color: #111;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 600;
   transition: 0.3s;
 }
 
@@ -55,13 +49,9 @@
   justify-content: center;
   gap: 9px;
   cursor: pointer;
-
   background: #0d68e8;
   color: #fff;
-  text-decoration: none;
   border-radius: 35px;
-  font-size: 20px;
-  font-weight: 600;
   transition: 0.3s;
 }
 
