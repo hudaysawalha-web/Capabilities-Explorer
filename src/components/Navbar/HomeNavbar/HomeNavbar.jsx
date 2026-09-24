@@ -9,7 +9,7 @@ export default function HomeNavbar() {
           <div className="brain-icon">
             <i className="fa-solid fa-brain"></i>
           </div>
-          <h1 className="logo-title">Early Step</h1>
+          <span className="logo-title">Early Step</span>
         </div>
 
         {/* Action Links */}

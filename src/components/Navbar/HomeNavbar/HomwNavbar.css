@@ -7,7 +7,6 @@
   background-color: var(--bg-white);
 }
 
-
 .Homenavbar-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -17,7 +16,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 
 .site-logo {
   display: flex;
@@ -32,17 +30,17 @@
   align-items: center;
   justify-content: center;
   background-color: var(--primary-blue);
-  border-radius: 50%; 
+  border-radius: 50%;
   padding: 8px;
   color: var(--bg-white);
 }
 .brain-icon i {
-  font-size: 1.875rem; 
+  font-size: 1.875rem;
 }
 .logo-title {
-
+  font-size: 1.5rem;
+  font-weight: 800;
   color: var(--text-dark);
-  
 }
 
 /* Right Side Links & Button */
@@ -54,6 +52,7 @@
 
 /* Login Link */
 .login-link {
+  font-weight: 500;
   color: var(--primary-blue);
   padding: 8px 16px;
   transition: color 0.2s ease;
@@ -62,7 +61,6 @@
 .login-link:hover {
   color: var(--primary-blue-hover);
 }
-
 
 .startnow-button {
   display: inline-flex;
@@ -73,7 +71,9 @@
   background-color: var(--primary-blue);
   color: #ffffff;
   border-radius: 50px;
-  transition: background-color 0.2s ease, transform 0.1s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
 }
 
 .startnow-button:hover {
