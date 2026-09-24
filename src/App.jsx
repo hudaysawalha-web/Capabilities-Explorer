@@ -1,4 +1,4 @@
-import HomeNavbar from "./components/Navbar/HomeNavbar/HomeNavbar"
+import ParentSidebar from "./components/Sidebar/ParentSidebar/ParentSidebar"
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <HomeNavbar/>
+    <ParentSidebar/>
     </>
   )
 }
