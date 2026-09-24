@@ -4,6 +4,7 @@
   z-index: 50;
   width: 100%;
   border-bottom: var(--border-light);
+  background-color: var(--bg-white);
 }
 
 
