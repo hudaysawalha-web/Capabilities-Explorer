@@ -1,11 +1,8 @@
-import HomeNavbar from "./components/Navbar/HomeNavbar/HomeNavbar";
-import Home from "./Layout/Home/Home";
-import ParentSidebar from './components/Sidebar/ParentSidebar/ParentSidebar'
-
+import AddChildren from './components/Cards/ParentsCard/ChildrenCard/AddChildren/AddChildren';
 function App() {
   return (
     <>
-<ParentSidebar/>
+<AddChildren/>
     </>
   );
 }
