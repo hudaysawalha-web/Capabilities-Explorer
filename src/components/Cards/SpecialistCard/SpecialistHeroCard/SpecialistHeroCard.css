@@ -1,0 +1,80 @@
+.specialist-hero-card {
+  position: relative;
+  width: 100%;
+  padding: 24px 32px;
+  box-sizing: border-box;
+  border-radius: 36px;
+  background: linear-gradient(90deg, #5833e6 0%, #7656f8 50%, #6842f1 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 25px -5px rgba(88, 51, 230, 0.25);
+}
+
+.specialist-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* --- Right Side: Text Area --- */
+.specialist-hero-text {
+  text-align: right;
+}
+
+.specialist-hero-greeting {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 4px;
+}
+
+.specialist-hero-greeting i {
+  font-size: 12px;
+}
+
+.specialist-hero-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.specialist-hero-subtitle {
+  font-size: 13px;
+  opacity: 0.75;
+  font-weight: 400;
+}
+
+/* --- Left Side: Semi-Transparent Buttons --- */
+.specialist-hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.specialist-hero-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  backdrop-filter: blur(8px);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.specialist-hero-button:hover {
+  background: rgba(255, 255, 255, 0.28);
+}

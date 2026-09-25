@@ -1,12 +1,11 @@
 
-import HomeNavbar from "./components/Navbar/HomeNavbar/HomeNavbar";
-import Home from "./Layout/Home/Home";
+import SpecialistHeroCard from "./components/Cards/SpecialistCard/SpecialistHeroCard/SpecialistHeroCard";
+
 
 function App() {
   return (
     <>
-      <HomeNavbar />
-      <Home />
+  <SpecialistHeroCard/> 
 
     </>
   );
