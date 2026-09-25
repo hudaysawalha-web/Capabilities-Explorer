@@ -1,8 +1,8 @@
-import AddChildren from './components/Cards/ParentsCard/ChildrenCard/AddChildren/AddChildren';
+import ForgotPassword from './components/Cards/Auth/ForgotPassword/ForgotPassword';
 function App() {
   return (
     <>
-<AddChildren/>
+<ForgotPassword/>
     </>
   );
 }
