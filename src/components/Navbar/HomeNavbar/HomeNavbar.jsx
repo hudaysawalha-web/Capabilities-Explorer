@@ -1,3 +1,4 @@
+import Brand from "../../Brand/Brand";
 import "./HomwNavbar.css";
 
 export default function HomeNavbar() {
@@ -5,12 +6,7 @@ export default function HomeNavbar() {
     <div className="Homenavbar">
       <div className="Homenavbar-container">
        
-        <div className="site-logo">
-          <div className="brain-icon">
-            <i className="fa-solid fa-brain"></i>
-          </div>
-          <span className="logo-title">Early Step</span>
-        </div>
+        <Brand/>
 
         {/* Action Links */}
         <div className="navbar-links">

@@ -17,31 +17,7 @@
   justify-content: space-between;
 }
 
-.site-logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
 
-.brain-icon {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary-blue);
-  border-radius: 50%;
-  padding: 8px;
-  color: var(--bg-white);
-}
-.brain-icon i {
-  font-size: 1.875rem;
-}
-.logo-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text-dark);
-}
 
 /* Right Side Links & Button */
 .navbar-links {
